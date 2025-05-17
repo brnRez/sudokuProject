@@ -1,5 +1,8 @@
 package projetosudoku.domain;
 
+import projetosudoku.computationlogic.SudokuUtilities;
+import projetosudoku.constants.GameState;
+
 import java.io.Serializable;
 
 public class SudokuGame  implements Serializable {
@@ -13,7 +16,7 @@ public class SudokuGame  implements Serializable {
         this.gridState = gridState;
     }
 
-    public GameState getGameState{
+    public GameState getGameState(){
         return gameState;
     }
 
